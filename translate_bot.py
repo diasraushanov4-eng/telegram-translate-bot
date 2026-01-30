@@ -331,7 +331,7 @@ async def inline_query(update: Update, context: ContextTypes.DEFAULT_TYPE):
 def main():
     """Botni ishga tushirish"""
     # TOKENni environment variable'dan olish
-    TOKEN = os.getenv('BOT_TOKEN', 'YOUR_BOT_TOKEN_HERE')
+    TOKEN = os.getenv('8412558219:AAG1bblnF7ezEF6FjjlZE0KXv9FZZPzus3o', '8412558219:AAG1bblnF7ezEF6FjjlZE0KXv9FZZPzus3o')
     
     if TOKEN == 'YOUR_BOT_TOKEN_HERE':
         print("⚠️  Xato: BOT_TOKEN environment variable o'rnatilmagan!")
